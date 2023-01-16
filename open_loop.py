@@ -69,7 +69,7 @@ class Turtlebot():
 	vel.linear.x = 0.5
         vel.angular.z = 0.01
         #while not rospy.is_shutdown():  # uncomment to use while loop
-        for i in range(73):
+        for i in range(71):
             self.vel_pub.publish(vel)
             self.rate.sleep()
 		
